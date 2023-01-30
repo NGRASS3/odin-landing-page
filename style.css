@@ -1,0 +1,215 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+/* Header Section (Nav + Banner) */
+
+header {
+background-color: #1f2937;
+width: 100%;
+padding: 20px 200px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight:bolder;
+  color:#f9faf8;
+ }
+ 
+
+ul, a{
+display: flex;
+list-style: none;
+text-decoration: none;
+color: #e5e7eb;
+font-size: 17px;
+gap: 20px;
+} 
+
+
+/* Hero Section */
+
+
+.hero {
+display: flex;
+justify-content: center;
+gap: 56px;
+padding-top: 110px;
+padding-bottom: 110px;
+}
+
+
+.image {
+  display: flex;
+  background-color: rgb(163, 163, 163);
+  width: 500px;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+
+}
+
+.subtext {
+  color:#c1c1c1;
+  padding: 10px 0;
+  line-height: 120%;
+  
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 28px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  
+}
+
+/* Carousel */
+
+
+main {
+  padding: 50px 300px 100px 300px;
+}
+
+
+.title {
+  letter-spacing: -.5px;
+  font-size: 38px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+   
+}
+
+.boxdesign {
+  border: 4px rgb(37, 110, 237) solid;
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: grey;
+  max-width: 200px;
+  }
+
+ 
+
+/* Quote */
+
+
+.section1 {
+  background-color: #e5e7eb;
+  padding: 120px 265px;
+}
+
+.quotesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.quotetext {
+  font-size: 36px;
+  color:#383838;
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+
+}
+
+.author {
+  font-size: 22px;
+  font-weight: bolder;
+margin-left: auto;
+}
+
+
+/* Call to Action */
+
+.section2 {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+ 
+}
+
+
+.sectioncontainer {
+  padding: 5px 25px; 
+  height: 150px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  gap: 100px;
+
+}
+
+.section2btn {
+  border: 2px white solid;
+  padding: 8px 30px;
+}
+
+h2 {
+  color: white;
+  padding-bottom: 4px;
+}
+
+.ctatext {
+  color: #e5e7eb;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px;
+
+}
